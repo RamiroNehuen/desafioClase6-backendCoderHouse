@@ -1,6 +1,6 @@
-const fs = require('fs');
+import fs from 'fs';
 
-module.exports = class Container {
+export class Container {
     constructor (fileName){
         this.fileName = fileName;
         this.productSave =[]
